@@ -1,0 +1,30 @@
+.page[b-z56411rch0] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-z56411rch0] {
+    flex: 1;
+}
+
+.sidebar[b-z56411rch0] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+/*@media (max-width: 640.98px) {
+
+}*/
+
+@media (min-width: 641px) {
+    .page[b-z56411rch0] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-z56411rch0] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+}

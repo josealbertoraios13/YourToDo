@@ -1,0 +1,58 @@
+@using ToDo.Models
+@using ToDo.Services
+@inject ItemController controller
+@inject ItemService itemService
+@inject UpdateUIService updateUIService
+
+<li style="opacity: @((NewItem.IsFinishedStyle()) ? "0.5": "1");">
+    <strong>@NewItem.Name</strong> 
+    
+    <br>
+
+    @NewItem.Description 
+
+    <br>
+
+    <small>
+        <strong>Prazo: </strong>@NewItem.Date.ToShortDateString()  
+        | <strong>Hora: </strong>@NewItem.Hour
+        | <strong>Tarefa Criada: </strong>@NewItem.CreatedDate.ToShortDateString();
+    </small>
+
+    <br> 
+
+    <label for="is-finished-in">Marcar como concluído: </label>
+    <InputCheckbox id="is-finished-in" @bind-Value="NewItem.IsFinished" onclick="@IsFinished"></InputCheckbox>
+
+    <br>
+
+    <button class="btn btn-sm btn-primary" @onclick="() => controller.EditItem(NewItem)">
+        <i class="fa fa-pencil"></i>
+        Editar
+    </button>
+
+    <button class="btn btn-sm btn-danger" @onclick="() => Remove(NewItem)">
+        <i class="fa fa-trash"></i>
+        Remover
+    </button>
+</li>
+
+@code{
+    [Parameter]
+    public Item NewItem {get; set;} = new();
+
+    public void Remove(Item item)
+    {
+        controller.Itens.Remove(item);
+
+        Task.Run(() => itemService.SaveItensAsync(controller.Itens));
+
+        updateUIService.Update();
+    }
+
+    public void IsFinished()
+    {
+        Task.Run(() => itemService.SaveItensAsync(controller.Itens));
+        controller.OrderList();
+    }
+}

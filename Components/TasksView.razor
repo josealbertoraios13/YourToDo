@@ -1,0 +1,44 @@
+@using ToDo.Models
+@using ToDo.Services
+@inject ItemController controller
+@inject ItemService itemService
+@inject UpdateUIService updateUIService
+
+<div class="menu">
+
+    <h3>@Name: </h3>
+
+    @if(Itens.Count == 0)
+    {
+        <p>Nenhuma tarefa registrada</p>
+    }
+    else
+    {
+        <ul>
+            @foreach(var item in Itens)
+            {
+                <TaskItem NewItem="item"></TaskItem>
+            }
+        </ul>
+    }
+</div>
+
+@code{
+    [Parameter]
+    public string Name {get; set;} = string.Empty;
+    [Parameter]
+    public List<Item> Itens {get; set;} = new();
+    protected override async Task OnInitializedAsync()
+    {   
+        controller.Itens = await itemService.GetItemsAsync();
+        controller.OrderList();
+        updateUIService.OnUpdate += StateHasChanged;
+        updateUIService.Update();
+    }
+
+    public void Remove(Item item)
+    {
+        controller.Itens.Remove(item);
+        Task.Run(() => itemService.SaveItensAsync(controller.Itens));
+    }
+}

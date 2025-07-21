@@ -1,0 +1,30 @@
+﻿@page "/"
+@using ToDo.Components
+@using ToDo.Models
+@using ToDo.Services
+@inject ItemController controller
+@inject ItemService itemService
+@inject UpdateUIService updateUIService
+
+<PageTitle>Home</PageTitle>
+
+<h1>Your To Do</h1>
+
+<h6>Bem-vindo ao seu gerenciador de tarefas!</h6>
+
+<!--Resumos-->
+<TasksView Name="Hoje" Itens="controller.ItensToday()"></TasksView>
+<TasksView Name="Amanhã" Itens="controller.ItensTomorrow()"></TasksView>
+
+<!--CRUD-->
+<TaskForm></TaskForm>
+
+
+@code{
+    protected override async Task OnInitializedAsync()
+    {   
+        controller.Itens = await itemService.GetItemsAsync();
+        updateUIService.OnUpdate += StateHasChanged;
+    }
+
+}

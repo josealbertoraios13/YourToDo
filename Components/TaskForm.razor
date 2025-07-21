@@ -1,0 +1,69 @@
+@using ToDo.Models
+@using ToDo.Services
+@inject ItemController controller
+@inject ItemService itemService
+@inject UpdateUIService updateUIService
+
+<div class="menu">
+
+    <h3>Adicionar tarefa:</h3>
+
+    <EditForm Model="@controller.newItem" OnValidSubmit="@NewItem">
+        <DataAnnotationsValidator></DataAnnotationsValidator>
+
+        <div class="for-name">
+
+            <label for="name-in">Nome:</label>
+            <InputText @bind-Value="controller.newItem.Name" class="form-control" id="name-in"></InputText>
+            <ValidationMessage For="@(() => controller.newItem.Name)"></ValidationMessage>
+        
+        </div>
+
+        <div class="for-description">
+
+            <label for="description-in">Descrição:</label>
+            <InputTextArea @bind-Value="controller.newItem.Description" class="form-control" id="description-in"></InputTextArea>
+            <ValidationMessage For="@(() => controller.newItem.Description)"></ValidationMessage>
+        
+        </div>
+
+        <div class="time" style="display: flex;">
+
+            <div class="for-date">
+
+                <label for="date-in">Data:</label>
+                <InputDate @bind-Value="controller.newItem.Date" class="form-control" id="date-in"></InputDate>
+                <ValidationMessage For="@(() => controller.newItem.Date)"></ValidationMessage>
+            
+            </div>
+
+            <div class="for-hour">
+
+                <label for="hour-in">Horário:</label>
+                <InputText @bind-Value="controller.newItem.Hour" class="form-control" id="hour-in" type="time"></InputText>
+                <ValidationMessage For="@(() => controller.newItem.Hour)"></ValidationMessage>
+            </div>
+
+        </div>
+
+        <div class="btns">
+
+            <div class="for-submit">
+                <button class="btn btn-success" type="submit">Adicionar</button>
+            </div>
+
+        </div>
+        
+    </EditForm>
+</div>
+
+@code{
+    public void NewItem()
+    {
+        controller.AddItem();
+
+        Task.Run(() => itemService.SaveItensAsync(controller.Itens));
+
+        updateUIService.Update();
+    }
+}

@@ -1,0 +1,21 @@
+@page "/task-manager"
+@using ToDo.Components
+@using ToDo.Models
+@using ToDo.Services
+@inject ItemController controller
+@inject ItemService itemService
+@inject UpdateUIService updateUIService
+
+<PageTitle>Task Manager</PageTitle>
+
+<TaskForm></TaskForm>
+
+<TasksView Name="Todas" Itens="controller.Itens"></TasksView>
+
+@code{
+    protected override async Task OnInitializedAsync()
+    {   
+        controller.Itens = await itemService.GetItemsAsync();
+        updateUIService.OnUpdate += StateHasChanged;
+    }
+}
