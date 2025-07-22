@@ -4,10 +4,13 @@ using Blazored.LocalStorage;
 using ToDo;
 using ToDo.Services;
 using ToDo.Models;
+using Blazored.Modal;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);
 builder.RootComponents.Add<App>("#app");
 builder.RootComponents.Add<HeadOutlet>("head::after");
+
+builder.Services.AddBlazoredModal();
 
 builder.Services.AddBlazoredLocalStorage();
 builder.Services.AddScoped<ItemService>();

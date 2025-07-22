@@ -1,37 +1,42 @@
+@using Blazored.Modal
 @using ToDo.Models
 @using ToDo.Services
+
+
 @inject ItemController controller
 @inject ItemService itemService
 @inject UpdateUIService updateUIService
 
-<li style="opacity: @((NewItem.IsFinishedStyle()) ? "0.5": "1");">
-    <strong>@NewItem.Name</strong> 
+@inject Blazored.Modal.Services.IModalService Modal
+
+<li style="opacity: @((ItemTask.IsFinishedStyle()) ? "0.5": "1");">
+    <strong>@ItemTask.Name</strong> 
     
     <br>
 
-    @NewItem.Description 
+    @ItemTask.Description 
 
     <br>
 
     <small>
-        <strong>Prazo: </strong>@NewItem.Date.ToShortDateString()  
-        | <strong>Hora: </strong>@NewItem.Hour
-        | <strong>Tarefa Criada: </strong>@NewItem.CreatedDate.ToShortDateString();
+        <strong>Prazo: </strong>@ItemTask.Date.ToShortDateString()  
+        | <strong>Hora: </strong>@ItemTask.Hour
+        | <strong>Tarefa Criada: </strong>@ItemTask.CreatedDate.ToShortDateString();
     </small>
 
     <br> 
 
     <label for="is-finished-in">Marcar como concluído: </label>
-    <InputCheckbox id="is-finished-in" @bind-Value="NewItem.IsFinished" onclick="@IsFinished"></InputCheckbox>
+    <InputCheckbox id="is-finished-in" @bind-Value="ItemTask.IsFinished" @onclick="() => IsFinished()"></InputCheckbox>
 
     <br>
 
-    <button class="btn btn-sm btn-primary" @onclick="() => controller.EditItem(NewItem)">
+    <button class="btn btn-sm btn-primary" @onclick="() => Editing()">
         <i class="fa fa-pencil"></i>
         Editar
     </button>
 
-    <button class="btn btn-sm btn-danger" @onclick="() => Remove(NewItem)">
+    <button class="btn btn-sm btn-danger" @onclick="() => Remove(ItemTask)">
         <i class="fa fa-trash"></i>
         Remover
     </button>
@@ -39,7 +44,32 @@
 
 @code{
     [Parameter]
-    public Item NewItem {get; set;} = new();
+    public Item ItemTask {get; set;} = new();
+
+    public async Task Editing()
+    {
+        var parameters = new ModalParameters();
+        parameters.Add("ItemTaskEdited", ItemTask);
+
+        var options = new ModalOptions(){
+               HideCloseButton = true,
+               HideHeader = true 
+        };
+
+        var modal = Modal.Show<TaskItemUpdate>("editar", parameters, options);
+        var result = await modal.Result;
+
+        if(!result.Cancelled && result.Data is Item ItemTaskEdited){
+            ItemTask.Name = ItemTaskEdited.Name;
+            ItemTask.Description = ItemTaskEdited.Description;
+            ItemTask.Date = ItemTaskEdited.Date;
+            ItemTask.Hour = ItemTaskEdited.Hour;
+
+            await itemService.SaveItensAsync(controller.Itens);
+
+            updateUIService.Update();
+        }
+    }
 
     public void Remove(Item item)
     {

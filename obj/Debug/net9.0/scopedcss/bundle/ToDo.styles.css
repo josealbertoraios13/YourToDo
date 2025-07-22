@@ -1,18 +1,5 @@
-/* /Components/TaskForm.razor.rz.scp.css */
-.menu[b-2prd0dg5ft]{
-    margin: 20px 0px 20px 0px;
-    border-radius: 7px;
-    border: solid 1px rgba(0, 0, 0, 0.3);
-    padding: 3%;
-}
+@import '_content/Blazored.Modal/Blazored.Modal.bundle.scp.css';
 
-.menu div[b-2prd0dg5ft]{
-    margin: 20px 0px 20px 0px;
-}
-
-.menu .time div[b-2prd0dg5ft]{
-    margin-right: 10px;
-}
 /* /Components/TaskItem.razor.rz.scp.css */
 li[b-nbn0itofgv]{
     list-style: none;

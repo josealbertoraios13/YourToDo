@@ -125,3 +125,11 @@ code {
     flex-direction: column;
     gap: 15px;
 }
+
+.menu div{
+    margin: 20px 0px 20px 0px;
+}
+
+.menu .time div{
+    margin-right: 10px;
+}

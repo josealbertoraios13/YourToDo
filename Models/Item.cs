@@ -23,9 +23,7 @@ public class Item
 
     public bool IsFinishedStyle()
     {
-        var currentHour = TimeSpan.Parse(Hour);
-
-        return IsFinished == true || Date < DateTime.Today || currentHour < DateTime.Now.TimeOfDay;
+        return IsFinished || Date < DateTime.Today;
     }
     
     public static ValidationResult DataValidation(DateTime date, ValidationContext context)

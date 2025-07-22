@@ -1,0 +1,95 @@
+@using Blazored.Modal
+@using Blazored.Modal.Services
+
+@using ToDo.Models
+@using ToDo.Components
+@using ToDo.Services
+@inject ItemController controller
+@inject ItemService itemService
+@inject UpdateUIService updateUIService
+
+@inherits ComponentBase
+
+<div class="menu">
+
+    <h3>Adicionar tarefa:</h3>
+
+    <EditForm Model="@ItemTaskEdited" OnValidSubmit="@Confirm">
+        <DataAnnotationsValidator></DataAnnotationsValidator>
+
+        <div class="for-name">
+
+            <label for="name-in">Nome:</label>
+            <InputText @bind-Value="ItemTaskEdited.Name" class="form-control" id="name-in"></InputText>
+            <ValidationMessage For="@(() => ItemTaskEdited.Name)"></ValidationMessage>
+        
+        </div>
+
+        <div class="for-description">
+
+            <label for="description-in">Descrição:</label>
+            <InputTextArea @bind-Value="ItemTaskEdited.Description" class="form-control" id="description-in"></InputTextArea>
+            <ValidationMessage For="@(() => ItemTaskEdited.Description)"></ValidationMessage>
+        
+        </div>
+
+        <div class="time" style="display: flex;">
+
+            <div class="for-date">
+
+                <label for="date-in">Data:</label>
+                <InputDate @bind-Value="ItemTaskEdited.Date" class="form-control" id="date-in"></InputDate>
+                <ValidationMessage For="@(() => ItemTaskEdited.Date)"></ValidationMessage>
+            
+            </div>
+
+            <div class="for-hour">
+
+                <label for="hour-in">Horário:</label>
+                <InputText @bind-Value="ItemTaskEdited.Hour" class="form-control" id="hour-in" type="time"></InputText>
+                <ValidationMessage For="@(() => ItemTaskEdited.Hour)"></ValidationMessage>
+            </div>
+
+        </div>
+
+        <div class="btns">
+
+            <div class="for-submit">
+                <button class="btn btn-success" type="submit">Adicionar</button>
+            </div>
+
+        </div>
+        
+    </EditForm>
+</div>
+
+@code{
+    [CascadingParameter]
+    public BlazoredModalInstance blazoredModal {get; set;} = default!;
+
+    [Parameter]
+    public Item ItemTaskEdited {get; set;} = new();
+
+    protected override void OnInitialized(){
+
+        ItemTaskEdited = new Item(){
+            Name = ItemTaskEdited.Name,
+            Description = ItemTaskEdited.Description,
+            Date = ItemTaskEdited.Date,
+            Hour = ItemTaskEdited.Hour
+        };
+    }
+
+    private async Task Confirm(){
+
+        //await itemService.SaveItensAsync(controller.Itens);
+
+        //updateUIService.Update();
+
+        await blazoredModal.CloseAsync(ModalResult.Ok(ItemTaskEdited));
+    }
+
+    private async Task Cancel(){
+        await blazoredModal.CancelAsync();
+    }
+}

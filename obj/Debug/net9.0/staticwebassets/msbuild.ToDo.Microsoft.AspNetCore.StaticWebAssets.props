@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4qv89zk5re</Fingerprint>
-      <Integrity>nOdIy3BvdbkLUGD1Wzt1x04PoDQELIsFn+3i7aEC+jM=</Integrity>
+      <Fingerprint>kptfucmau9</Fingerprint>
+      <Integrity>KLK3tPGTFO14YJbdH6pWGmwXUCI6E8lDS+8T2P6LAIs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\app.css'))</OriginalItemSpec>
@@ -894,8 +894,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>4haxqzxp67</Fingerprint>
-      <Integrity>SMmdB8rA3KN9Cm70Kz5Fzq2EusWWwTH4ZWnVhxg2G9w=</Integrity>
+      <Fingerprint>uyvdjo0924</Fingerprint>
+      <Integrity>6ol9cbJ5yDWCU7rPAWXiXjex71MENIvA7jrJ6LqAJWA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\ToDo.styles.css'))</OriginalItemSpec>

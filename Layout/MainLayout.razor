@@ -1,4 +1,7 @@
-﻿@inherits LayoutComponentBase
+﻿@using Blazored.Modal
+
+@inherits LayoutComponentBase
+
 <div class="page">
     <div class="sidebar">
         <NavMenu />
@@ -6,7 +9,9 @@
 
     <main>
         <article class="content px-4">
+
             @Body
+            
         </article>
     </main>
 </div>

@@ -28,6 +28,14 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[/media/jose/SS2.1/Web C\# Testes/ToDo/Components/TaskForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UYXNrRm9ybS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/media/jose/SS2.1/Web C\# Testes/ToDo/Components/TaskItemUpdate.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UYXNrSXRlbVVwZGF0ZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/media/jose/SS2.1/Web C\# Testes/ToDo/Components/TasksView.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UYXNrc1ZpZXcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -43,10 +51,6 @@ build_metadata.AdditionalFiles.CssScope =
 [/media/jose/SS2.1/Web C\# Testes/ToDo/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
-
-[/media/jose/SS2.1/Web C\# Testes/ToDo/Components/TaskForm.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UYXNrRm9ybS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = b-2prd0dg5ft
 
 [/media/jose/SS2.1/Web C\# Testes/ToDo/Components/TaskItem.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UYXNrSXRlbS5yYXpvcg==

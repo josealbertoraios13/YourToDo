@@ -1,6 +1,7 @@
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/blazor.webassembly.js
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/Blazored.LocalStorage.12n6dz54qr.wasm
+/media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/Blazored.Modal.h7t7ava08f.wasm
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/dotnet.js
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/dotnet.js.map
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/dotnet.native.hvg7u8bimp.js
@@ -328,6 +329,7 @@
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/System.Resources.ResourceManager.q04y6dcewj.wasm.gz
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/System.Diagnostics.Contracts.vahp5ntdnv.wasm.gz
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/System.Private.DataContractSerialization.qvhjsykzua.wasm.gz
+/media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/Blazored.Modal.h7t7ava08f.wasm.gz
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/System.Net.HttpListener.g1z5na32ay.wasm.gz
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/System.Security.Cryptography.OpenSsl.xypyg2056u.wasm.gz
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/System.IO.Compression.Brotli.k5ptxcu8oa.wasm.gz
@@ -409,6 +411,7 @@
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/ToDo.dll
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/ToDo.pdb
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/Blazored.LocalStorage.dll
+/media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/Blazored.Modal.dll
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/Microsoft.AspNetCore.Authorization.dll
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/Microsoft.AspNetCore.Components.dll
 /media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/Microsoft.AspNetCore.Components.Forms.dll
@@ -616,6 +619,7 @@
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/ToDo.csproj.CoreCompileInputs.cache
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/ToDo.MvcApplicationPartsAssemblyInfo.cache
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/webcil/Blazored.LocalStorage.wasm
+/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/webcil/Blazored.Modal.wasm
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/webcil/Microsoft.AspNetCore.Authorization.wasm
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/webcil/Microsoft.AspNetCore.Components.wasm
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/webcil/Microsoft.AspNetCore.Components.Forms.wasm
@@ -808,7 +812,6 @@
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/webcil/netstandard.wasm
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/webcil/System.Private.CoreLib.wasm
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/webcil/ToDo.wasm
-/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/scopedcss/Components/TaskForm.razor.rz.scp.css
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/scopedcss/Components/TaskItem.razor.rz.scp.css
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/scopedcss/Layout/MainLayout.razor.rz.scp.css
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/scopedcss/Layout/NavMenu.razor.rz.scp.css
@@ -816,6 +819,8 @@
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/scopedcss/projectbundle/ToDo.bundle.scp.css
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/blazor.build.boot-extension.json
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/blazor.boot.json
+/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/raa8419rum-8qij0y2dsa.gz
+/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/1qqpv1460j-kptfucmau9.gz
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/zlty2k5s27-okxxr77ex3.gz
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/otvmwgvb3s-bqjiyaj88i.gz
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/w97tayl9c6-c2jlpeoesf.gz
@@ -863,7 +868,11 @@
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/7q3bd4dblv-naevedafrw.gz
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/bvs4n091x0-iag0ou56lh.gz
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/3ez2td7ioa-md9yvkcqlf.gz
+/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/of8ka2v689-xineniuf5l.gz
+/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/usru2rp0rn-uyvdjo0924.gz
+/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/5mn5csupny-rznkwu0ec6.gz
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/0dikaykeye-12n6dz54qr.gz
+/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/kyijzww6mv-h7t7ava08f.gz
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/vgkstgytqy-gf26ou9jj9.gz
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/mo33nyxi6u-v3fd2n5hlr.gz
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/fkzyxguyvf-n0ihslit6r.gz
@@ -1078,13 +1087,10 @@
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/refint/ToDo.dll
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/ToDo.pdb
 /media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/ref/ToDo.dll
-/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/1qqpv1460j-4qv89zk5re.gz
-/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/usru2rp0rn-4haxqzxp67.gz
-/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/5mn5csupny-4haxqzxp67.gz
-/media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/ToDo.8wo97flv8z.pdb
-/media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/ToDo.1jqr0iy5zt.wasm
-/media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/ToDo.1jqr0iy5zt.wasm.gz
-/media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/ToDo.8wo97flv8z.pdb.gz
-/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/gzdup1kcvn-1jqr0iy5zt.gz
-/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/n9fhk1xfk2-8wo97flv8z.gz
-/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/6vv7eotbyi-kybtc8caql.gz
+/media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/ToDo.mj1l9ctei3.pdb
+/media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/ToDo.v4kzyf97f8.wasm
+/media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/ToDo.v4kzyf97f8.wasm.gz
+/media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/ToDo.mj1l9ctei3.pdb.gz
+/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/gzdup1kcvn-v4kzyf97f8.gz
+/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/n9fhk1xfk2-mj1l9ctei3.gz
+/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/compressed/6vv7eotbyi-rx8iotvxk7.gz
