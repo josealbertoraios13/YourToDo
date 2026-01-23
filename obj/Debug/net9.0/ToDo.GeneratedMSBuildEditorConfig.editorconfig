@@ -13,53 +13,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = ToDo
 build_property.RootNamespace = ToDo
-build_property.ProjectDir = /media/jose/SS2.1/Web C# Testes/ToDo/
+build_property.ProjectDir = /media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /media/jose/SS2.1/Web C# Testes/ToDo
+build_property.MSBuildProjectDirectory = /media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/media/jose/SS2.1/Web C\# Testes/ToDo/App.razor]
+[/media/jose_alberto/SS2.1/GitHub/c\#-dotnet/ToDo/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/jose/SS2.1/Web C\# Testes/ToDo/Components/TaskForm.razor]
+[/media/jose_alberto/SS2.1/GitHub/c\#-dotnet/ToDo/Components/TaskForm.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UYXNrRm9ybS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/jose/SS2.1/Web C\# Testes/ToDo/Components/TaskItemUpdate.razor]
+[/media/jose_alberto/SS2.1/GitHub/c\#-dotnet/ToDo/Components/TaskItemUpdate.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UYXNrSXRlbVVwZGF0ZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/jose/SS2.1/Web C\# Testes/ToDo/Components/TasksView.razor]
+[/media/jose_alberto/SS2.1/GitHub/c\#-dotnet/ToDo/Components/TasksView.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UYXNrc1ZpZXcucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/jose/SS2.1/Web C\# Testes/ToDo/Pages/Home.razor]
+[/media/jose_alberto/SS2.1/GitHub/c\#-dotnet/ToDo/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/jose/SS2.1/Web C\# Testes/ToDo/Pages/TaskManager.razor]
+[/media/jose_alberto/SS2.1/GitHub/c\#-dotnet/ToDo/Pages/TaskManager.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVGFza01hbmFnZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/jose/SS2.1/Web C\# Testes/ToDo/_Imports.razor]
+[/media/jose_alberto/SS2.1/GitHub/c\#-dotnet/ToDo/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/media/jose/SS2.1/Web C\# Testes/ToDo/Components/TaskItem.razor]
+[/media/jose_alberto/SS2.1/GitHub/c\#-dotnet/ToDo/Components/TaskItem.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9UYXNrSXRlbS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-nbn0itofgv
 
-[/media/jose/SS2.1/Web C\# Testes/ToDo/Layout/MainLayout.razor]
+[/media/jose_alberto/SS2.1/GitHub/c\#-dotnet/ToDo/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L01haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-z56411rch0
 
-[/media/jose/SS2.1/Web C\# Testes/ToDo/Layout/NavMenu.razor]
+[/media/jose_alberto/SS2.1/GitHub/c\#-dotnet/ToDo/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0L05hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-rgd8w8l0b3

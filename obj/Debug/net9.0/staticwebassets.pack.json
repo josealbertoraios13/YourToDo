@@ -1,207 +1,207 @@
 {
   "Files": [
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/bin/Debug/net9.0/wwwroot/_framework/blazor.webassembly.js",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/bin/Debug/net9.0/wwwroot/_framework/blazor.webassembly.js",
       "PackagePath": "staticwebassets/_framework/blazor.webassembly.js"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/obj/Debug/net9.0/scopedcss/bundle/ToDo.styles.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/obj/Debug/net9.0/scopedcss/bundle/ToDo.styles.css",
       "PackagePath": "staticwebassets/ToDo.styles.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/css/app.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/css/app.css",
       "PackagePath": "staticwebassets/css/app.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/favicon.png",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/favicon.png",
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/icon-192.png",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/icon-192.png",
       "PackagePath": "staticwebassets/icon-192.png"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/index.html",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/index.html",
       "PackagePath": "staticwebassets/index.html"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/media/jose/SS2.1/Web C# Testes/ToDo/wwwroot/sample-data/weather.json",
+      "Id": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/wwwroot/sample-data/weather.json",
       "PackagePath": "staticwebassets/sample-data/weather.json"
     },
     {

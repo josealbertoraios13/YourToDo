@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/media/jose/SS2.1/Web C# Testes/ToDo/ToDo.csproj": {}
+    "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/ToDo.csproj": {}
   },
   "projects": {
-    "/media/jose/SS2.1/Web C# Testes/ToDo/ToDo.csproj": {
+    "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/ToDo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/jose/SS2.1/Web C# Testes/ToDo/ToDo.csproj",
+        "projectUniqueName": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/ToDo.csproj",
         "projectName": "ToDo",
-        "projectPath": "/media/jose/SS2.1/Web C# Testes/ToDo/ToDo.csproj",
-        "packagesPath": "/home/jose/.nuget/packages/",
-        "outputPath": "/media/jose/SS2.1/Web C# Testes/ToDo/obj/",
+        "projectPath": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/ToDo.csproj",
+        "packagesPath": "/home/jose_alberto/.nuget/packages/",
+        "outputPath": "/media/jose_alberto/SS2.1/GitHub/c#-dotnet/ToDo/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/jose/.nuget/NuGet/NuGet.Config"
+          "/home/jose_alberto/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +39,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -64,13 +65,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.4, )",
+              "version": "[9.0.12, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.4, )",
+              "version": "[9.0.12, )",
               "autoReferenced": true
             }
           },
@@ -88,7 +89,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[9.0.4, 9.0.4]"
+              "version": "[9.0.12, 9.0.12]"
             }
           ],
           "frameworkReferences": {
@@ -96,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.113/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
