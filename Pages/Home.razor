@@ -19,12 +19,10 @@
 <!--CRUD-->
 <TaskForm></TaskForm>
 
-
 @code{
     protected override async Task OnInitializedAsync()
     {   
         controller.Itens = await itemService.GetItemsAsync();
         updateUIService.OnUpdate += StateHasChanged;
     }
-
 }

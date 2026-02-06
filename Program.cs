@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Blazored.LocalStorage;
 using ToDo;
 using ToDo.Services;
-using ToDo.Models;
 using Blazored.Modal;
 
 var builder = WebAssemblyHostBuilder.CreateDefault(args);

@@ -34,14 +34,4 @@ public class ItemController
 
         newItem = new(); // limpa o formulário
     }
-
-    public void EditItem(Item item)
-    {
-
-    }
-
-    public void FinishItem()
-    {
-
-    }
 }
